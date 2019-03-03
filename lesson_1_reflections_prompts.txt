@@ -1,0 +1,39 @@
+using diff to find bugs in two files.
+eks: diff -u newestFile oldFile
+
+using git diff to compare two commits
+eks: git diff commitIdOne commitIdTwo
+In order for the changes adding the mute button to be shown as additions, 
+the commit with the mute button needs to be the second argument to git diff. 
+That is because git diff considers the first argument as the "original", 
+and the second argument as the "new" version, so additions are lines present in the second argument but not the first.
+
+git clone
+
+a commit should be made for every logical change. If a logical change can be broken down to smaller pieces it is better.
+manual saving pros are that you dont unnessasery saving.
+Cons are that you can forget savings.
+
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+because git is made for complex work where multiple files are dependet on each other.
+
+How can you use the commands git log and git diff to view the history of files?
+git log command shows all the commits made. and git diff commands shows the differences between the commits.
+
+git checkout
+
+How might using version control make you more confident to make changes that could break something?
+I am more confident in making changes to code, because if anything breaks I can easyly go back to before it broke.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would use git for controlling the versions of my projects.
+
+git diff: will do this. It takes two arguments - the two commit ids to compare.
+git clone: will do this. It takes one argument - the url of the repository to copy.
+git checkout: will do this. It takes one argument - the commit ID to restore.
+git log: will do this. It doesn't take any arguments.
+
+For copying a directory, you weren't expected to know this, but it is possible to copy 
+a directory from one computer to another using the command scp, which stands for "secure copy". 
+The name was chosen because the scp command lets you securely copy a directory from one computer to another.
