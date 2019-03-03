@@ -37,3 +37,11 @@ git log: will do this. It doesn't take any arguments.
 For copying a directory, you weren't expected to know this, but it is possible to copy 
 a directory from one computer to another using the command scp, which stands for "secure copy". 
 The name was chosen because the scp command lets you securely copy a directory from one computer to another.
+
+git init: to add git to a directory.
+
+git status: shows the files in the targeted directory
+
+git add: is used to add files to the staging area. the staging area is the place to add files that should be
+tracked and targeted by commits.
+
