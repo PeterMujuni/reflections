@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+with git init I add git to the choosen directory, if I dont add git, I will not be
+able to track changes with git in that directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is where I choose the files to track. the value is that I can choose whatever file(s) to track.
