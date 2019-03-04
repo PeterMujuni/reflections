@@ -45,3 +45,6 @@ git status: shows the files in the targeted directory
 git add: is used to add files to the staging area. the staging area is the place to add files that should be
 tracked and targeted by commits.
 
+git reset --hard
+git checkout master
+
