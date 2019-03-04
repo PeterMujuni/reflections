@@ -9,4 +9,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 throug adding the files only realated to the logical change.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-when adding a experimental function. branch makes it possible to split the project up so when experimenting nothing breaks on the master. 
+when adding a experimental function. branch makes it possible to split the project up so when experimenting nothing breaks on the master.
+
+How do the diagrams help you visualize the branch structure?
+to know the exting commits and parents
