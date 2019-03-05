@@ -11,3 +11,6 @@ And I use clone when I want to copy the repo from gitHub to my local machine. Br
 What is the benefit of having a copy of the last known state of the remote stored locally?
 If I know that I will soon be without internet acces, I can fetch a copy of the remote repo. This helps me know what changes have been made 
 by others at the time of fecthing the remote copy and I can keep on working even without internet connection.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+whenever making changes when collaborating with others, you should create branch and request for at pull, when wanting to add it to the master.
